@@ -1,16 +1,15 @@
 
 ***
 # Tatiana Vysotskaya
-***
-#### Junior Frontend Developer
-***
-## Contacts
 
-**Address:** Mozyr, Belarus
-**Phone:** +1234 567 89 10 
-**E-mail:** programvtv07@gmail.com
-**GitHub:** [Tatsiana-prog](https://github.com/tatsiana-prog) 
-***
+### Junior Frontend Developer
+
+## Contacts
+* **Address:** Mozyr, Belarus
+* **Phone:** +1234 567 89 10 
+* **E-mail:** programvtv07@gmail.com
+* **GitHub:** [Tatsiana-prog](https://github.com/tatsiana-prog) 
+
 ## About me
 A dedicated and trained worker. In the future, I want to become a Frontend developer. Learn the most popular frameworks, the JavaScript language to perfection, write better and more valid code.
 
@@ -40,7 +39,7 @@ for (let i = 0; i <= 9; i++) {
 	}
 }
 ```````
-***
+
 ## Education
 #### Mozyr Pedagogical University I.P. Shamyakin, 2001-2006
 * faculty: Physics and Mathematics
@@ -49,3 +48,5 @@ for (let i = 0; i <= 9; i++) {
  * English (A2)
  * France (A2)
  * Russian (native)
+ 
+ ***
