@@ -2,11 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
 </head>
 <body>
-    <h1>Title</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">                  
+                  <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#Progects" class="nav-link">Progects</a></li>
+                  <li class="nav-item"><a href="#English" class="nav-link">English</a></li>                                  
+                </ul>
+              </nav> 
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="Summary">
+                <div class="content-block">
+                    <div class="content-description">
+                        <h1 >Tatiana Vysotskaya</h1>
+                        <p class="subtitle">Junior Frontend Developer</p>
+                        <p>A dedicated and trained worker. In the future, I want to become a Frontend developer. Learn the most popular frameworks, the JavaScript language to perfection, write better and more valid code.</p>
+                    </div>
+                    <div class="content-image"></div>
+                </div>
+            </section> 
+            <section class="section" id="Skills">
+                <h2>skills</h2>
+                <ul class="skills-list">
+                    <li>HTML5: valid semantic layout. Optimized layout;</li>
+                    <li>CSS3, effects and animations;</li>
+                    <li>Working with SVG images, SVG sprites;</li>
+                    <li>Setting PHP feedback form;</li>
+                    <li>Knowledge of the basics of programming:   JavaScript, jQuery, PHP;</li>
+                    <li>Use of Pixel Perfect technology;</li>
+                </ul>
+            </section>
+            <section class="section" id="Code">
+                <h2>Code</h2>
+                <code class="block-code">
+                    let num = 1;
+                    if (num == 1) {
+                        console.log('value1');
+                    } else if (num == 2) {
+                        console.log('value2');
+                    } else if (num == 3) {
+                        console.log('value3');
+                    }
+                </code>
+            </section>
+            <section class="section" id="Education">
+                <h2>Education</h2>
+                <div class="education-cottent">
+                    <h3>Pedagogical University I.Shamyakin in Mozyr</h3>
+                    <p>faculty: physical and mathematical</p>
+                    <p>speciality:mathematics-computer science</p>
+                </div>               
+            </section>
+            <section class="section" id="Progects">
+                <h2>Progects</h2>
+                <ul class="progects-list">
+                    <li><a  class="progects-link" href="https://tatsiana-prog.github.io/progect-travel/">Progect-travel</a></li>
+                    <li><a class="progects-link" href="https://tatsiana-prog.github.io/progect-cofee/">Progect-cofee</a></li>
+                    <li><a class="progects-link" href="https://tatsiana-prog.github.io/progect-compcurcess/">Progect-compcurcess </a></li>
+                </ul>                
+            </section>
+            <section class="section" id="Contacts">
+                <h2>Contacts</h2>
+                <ul class="contacts-list">
+                    <li>Mazyr, Belarus</li>
+                    <li><b>Email:</b> programvtv07@gmail.com</li>
+                    <li><b>GitHub:</b> <a class="contacts-link" href="https://github.com/tatsiana-prog">Tatsiana-prog</a></li>
+                    <li><b>Telegram:</b> @tatsiana-prog</li>                             
+                </ul>                
+            </section>
+            <section class="section" id="English">
+                <h2>English</h2>
+                <p>A2 - Pre-Intermediate</p>                
+            </section>            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <a class="contacts-link" href="https://github.com/tatsiana-prog">Tatsiana-prog</a>
+                <div class="box">© 2023</div>
+                <a class="logo-rss" href="https://rs.school/js/"></a>
+            </div>            
+        </div>
+    </footer>
 </body>
 </html>
