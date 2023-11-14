@@ -4,9 +4,9 @@
 ## Junior Frontend Developer
 ## Contacts
 * **Address:** Mozyr, Belarus
-* **Phone:** +1234 567 89 10 
+* **Phone:** +1234 567 89 10
 * **E-mail:** programvtv07@gmail.com
-* **GitHub:** [Tatsiana-prog](https://github.com/tatsiana-prog) 
+* **GitHub:** [Tatsiana-prog](https://github.com/tatsiana-prog)
 ## About me
 A dedicated and trained worker. In the future, I want to become a Frontend developer. Learn the most popular frameworks, the JavaScript language to perfection, write better and more valid code.
 
@@ -28,7 +28,6 @@ I know how to work in a team. I pay a lot of attention to education. Currently f
 ```````
 for (let i = 0; i <= 9; i++) {
 	let num = 3;
-	
 	for (let j = 0; j <= 9; j++) {
 		console.log(num); // выведет 3
 	}
